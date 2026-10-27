@@ -1,0 +1,98 @@
+{
+  "misses": {
+    "core 1": 0,
+    "core 2": 0,
+    "core 3": 0
+  },
+  "cores": [
+    [
+      [
+        "m2",
+        3,
+        10
+      ],
+      [
+        "m5",
+        6,
+        20
+      ],
+      [
+        "m6",
+        7,
+        40
+      ]
+    ],
+    [
+      [
+        "m4",
+        5,
+        20
+      ],
+      [
+        "m8",
+        9,
+        40
+      ],
+      [
+        "m1",
+        2,
+        10
+      ]
+    ],
+    [
+      [
+        "m3",
+        4,
+        20
+      ],
+      [
+        "m7",
+        8,
+        40
+      ],
+      [
+        "m10",
+        11,
+        100
+      ],
+      [
+        "m9",
+        10,
+        100
+      ]
+    ]
+  ],
+  "hyper": 200,
+  "table": {
+    "S1 balanced": {
+      "FF": "4 cores, 62.5%",
+      "FFD": "4 cores, 62.5%",
+      "BFD": "4 cores, 62.5%",
+      "WF": "4 cores, 62.5%"
+    },
+    "S2 skewed": {
+      "FF": "FAIL (1 unplaced), 55.0%",
+      "FFD": "4 cores, 70.0%",
+      "BFD": "4 cores, 70.0%",
+      "WF": "FAIL (3 unplaced), 25.0%"
+    },
+    "S3 tight": {
+      "FF": "4 cores, 72.0%",
+      "FFD": "4 cores, 72.0%",
+      "BFD": "4 cores, 72.0%",
+      "WF": "4 cores, 72.0%"
+    },
+    "S4 adversarial": {
+      "FF": "FAIL (1 unplaced), 51.0%",
+      "FFD": "FAIL (1 unplaced), 51.0%",
+      "BFD": "FAIL (1 unplaced), 51.0%",
+      "WF": "FAIL (1 unplaced), 51.0%"
+    },
+    "S5 mixed": {
+      "FF": "3 cores, 51.5%",
+      "FFD": "3 cores, 51.5%",
+      "BFD": "3 cores, 51.5%",
+      "WF": "4 cores, 51.5%"
+    }
+  }
+}
